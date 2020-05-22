@@ -1,0 +1,17 @@
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+}
+
+a {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red
+}
