@@ -1,0 +1,16 @@
+input:focus {
+    box-shadow: 0 0 5px red;
+}
+
+input:read-only {
+    background-color: #eee;
+    border: none;
+}
+
+.my-div p:first-child{
+    color: magenta;
+}
+
+.my-div p:last-child{
+    color: blue;
+}
