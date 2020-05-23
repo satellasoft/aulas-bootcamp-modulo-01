@@ -1,0 +1,114 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --color-pink: pink;
+}
+
+#titulo {
+    color: red;
+    font-weight: 300;
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.azul {
+    color: blue;
+}
+
+.nezul {
+    font-weight: bold;
+    color: blue;
+}
+
+/*CORES*/
+.text-hexadecimal {
+    color: #0ea3e8;
+}
+
+.text-rgb {
+    color: rgb(232, 14, 14);
+}
+
+.text-rgba {
+    /*Alpha vai de 0.0 - 1.0 || .5*/
+    background-color: rgba(217, 255, 0, .5)
+}
+
+.background-azul {
+    background-color: #0ea3e8;
+    padding: 10px;
+}
+
+/*Alinhamento de textos*/
+.texto-esquerda {
+    text-align: left;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+/*Estilos de texto*/
+.texto-normal {
+    font-weight: normal;
+}
+
+.texto-negrito {
+    font-weight: bold;
+}
+
+.texto-fino {
+    font-weight: lighter;
+}
+
+.texto-italico {
+    font-style: italic;
+}
+
+/*Tamanhos de texto*/
+
+.tamanho-pequeno {
+    font-size: 10px;
+}
+
+.tamanho-medio {
+    font-size: 15px;
+}
+
+.tamanho-grande {
+    font-size: 20px;
+}
+
+/*LINKS*/
+a {
+    color: #0ea3e8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*Fonts*/
+
+.texto-segoe {
+    font-family: segoe ui;
+}
+
+h1, h2{
+    color: var(--color-pink);
+}
