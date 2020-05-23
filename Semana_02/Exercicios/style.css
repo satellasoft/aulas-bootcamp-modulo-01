@@ -1,0 +1,28 @@
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-transform: capitalize;
+}
+
+span {
+    font-weight: bold;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
+
+.rosa {
+    color: magenta;
+}
