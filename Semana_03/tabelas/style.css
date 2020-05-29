@@ -1,0 +1,22 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table td {
+    /*border-bottom: 1px solid #ccc;*/
+    padding: 10px;
+}
+
+table th {
+    background-color: #eee;
+    padding: 10px;
+    text-align: left;
+}
+
+table tfoot td {
+    background-color: #a5beed;
+}
+
+table tr:nth-child(even) {
+    background-color: #83affa;
+}
