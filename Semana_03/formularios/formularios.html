@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="registra.php" method="post">
+        <select class="input" name="slEstado" id="slEstado">
+            <optgroup label="Sul">
+                <option value="sp">São Paulo</option>
+                <option value="pr" selected>Paraná</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </optgroup>
+
+            <optgroup label="Norte">
+                <option value="sp">São Paulo</option>
+                <option value="pr">Paraná</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+
+        <hr>
+
+        <textarea class="input" name="txtComentario" cols="30" rows="10" placeholder="Insira seu comentário">sadsad</textarea>
+
+        <hr>
+
+        <label><input type="radio" name="rbSexo" value="h"> Homem</label>
+        <label><input type="radio" name="rbSexo" value="m" checked> Mulher</label>
+
+        <hr>
+
+        <label><input type="checkbox" name="ckFruta" value="maca"> Maça</label>
+        <label><input type="checkbox" name="ckFruta" value="pera" checked> Pera</label>
+        <label><input type="checkbox" name="ckFruta" value="uva" checked> Uva</label>
+
+        <hr>
+        <label for="txtNome">Text</label>
+        <input class="input" type="text" name="txtNome" id="txtNome" placeholder="Agusto da Paz" readonly value="Gunnar">
+
+        <hr>
+
+        <label for="txtEmail">Email</label>
+        <input class="input" type="email" name="txtEmail" id="txtEmail" value="gunner@gmail.com" required autocomplete="off" disabled>
+
+        <hr>
+
+        <label for="txtSenha">Password</label>
+        <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="********" minlength="7" maxlength="20"
+            required>
+
+        <hr>
+
+        <label for="">Hidden</label>
+        <input class="input" type="hidden" name="txtHidden" id="txtHidden">
+
+        <hr>
+
+        <label for="txtDate">Date</label>
+        <input class="input" type="date" name="txtDate" id="txtDate">
+
+        <hr>
+
+        <label for="txtColor">Color</label>
+        <input class="input" type="color" name="txtColor" id="txtColor">
+
+        <hr>
+
+        <label for="txtNumber">Number</label>
+        <input class="input" type="number" name="txtNumber" id="txtNumber" min="2" max="10">
+
+
+        <input class="btn" type="submit" value="Cadastrar">
+        <input class="btn" type="reset" value="Resetar">
+        <input class="btn" type="button" value="Nada">
+
+    </form>
+</body>
+
+</html>
