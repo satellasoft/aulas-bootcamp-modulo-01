@@ -1,0 +1,90 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://blog.emania.com.br/wp-content/uploads/2017/02/2-2.jpg');
+}
+
+.text-shadow {
+    text-shadow: 0 0 5px blue;
+}
+
+.float {
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.border {
+    border: 2px solid rgb(36, 138, 255);
+    /*
+    border-style: solid;
+    border-width: 2px;
+    border-color: royalblue;
+    */
+}
+
+.margin {
+    margin: 10px 0 10px 0;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.width-height {
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    height: 100%;
+    background-color: salmon;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: slategray;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: #111;
+}
+
+.menu li a {
+    padding: 20px 10px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.outline {
+    border: 2px solid red;
+    box-shadow: 0 0 5px red;
+    outline-color: red;
+    outline: none;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.break-word {
+    word-wrap: break-word;
+}
