@@ -1,0 +1,11 @@
+img {
+    max-width: 350px;
+    height: auto;
+    border: 2px solid #111;
+    border-radius: 15px;
+    transition: transform  0.5s;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
