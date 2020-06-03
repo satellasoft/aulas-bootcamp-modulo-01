@@ -1,0 +1,33 @@
+h1{
+    text-transform: uppercase;
+}
+
+.ul-tratado {
+    list-style-type: none;
+    padding: 0;
+    background-color: sandybrown;
+}
+
+.ul-tratado li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: sandybrown;
+    display: inline-block;
+}
+
+.ul-tratado li a {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(90, 61, 15);
+    text-decoration: none;
+    transition: all .5s; /*0.4s*/
+}
+
+.ul-tratado li a:hover {
+    color: #FFF;
+    background-color: rgb(90, 61, 15);
+}
+
+ol{
+    list-style-type: lower-roman;
+}
