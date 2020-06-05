@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        textarea {
+            padding: 10px;
+            max-width: 500px;
+            width: 100%;
+            border: 3px solid #EEE;
+            outline: none;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <!--<form action="" onsubmit="return enviaForm();"></form>-->
+    <form action="" id="frmCadastro">
+
+        <input type="submit">
+
+    </form>
+
+    <textarea id="txtMensagem" rows="5" onkeyup="contaCaracteres();"></textarea>
+    <p><span id="caracteres">150</span> caracteres restantes</p>
+
+</body>
+
+</html>
