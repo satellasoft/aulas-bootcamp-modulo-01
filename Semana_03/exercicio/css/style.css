@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.max-width {
+    max-width: 1280px;
+    width: 100%;
+}
+
+header {
+    background: #EEE;
+}
+
+p {
+    margin: 15px 0;
+}
+
+header img {
+    max-width: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    background-color: #0288D1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color .5s;
+}
+
+nav ul li a:hover {
+    color: #0288D1;
+    background-color: #B3E5FC;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#home img {
+    max-width: 100%;
+    border: none;
+    filter: grayscale(70%);
+    transition: all .2s;
+    cursor: pointer;
+}
+
+#home img:hover {
+    filter: grayscale(0%);
+}
+
+#home a {
+    padding: 5px;
+    background-color: #00BCD4;
+    color: #fff;
+    float: right;
+    text-decoration: none;
+}
+
+#home p {
+    text-align: justify;
+}
+
+.box {
+    padding: 10px;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #eee;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
+
+
+table th {
+    background-color: #111;
+    color: #FFF
+}
+
+table tbody tr {
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #B3E5FC;
+}
+
+table tbody tr:hover {
+    background-color: #ccc;
+}
+
+table tfoot td:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+#form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+#form input[type="text"],
+#form input[type="password"],
+#form select {
+    width: 100%;
+    padding: 10px;
+    color: #0288D1;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+#form input[type="text"]:focus,
+#form input[type="password"]:focus {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.inline {
+    display: inline !important;
+    margin-right: 10px;
+}
+
+.btn{
+    margin: 10px 0;
+    padding:10px;
+    background-color: #0288D1;
+    color: #FFF;
+    border:none;
+    float: right;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #00BCD4;
+}

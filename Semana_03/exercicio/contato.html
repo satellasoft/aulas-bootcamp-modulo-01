@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pallet.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="max-width">
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Google-Logo.svg/1280px-Google-Logo.svg.png"
+                    alt="Minha logo">
+            </a>
+        </div>
+
+        <nav>
+            <div class="max-width">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="form">
+        <div class="max-width">
+            <div class="grid-70">
+                <div class="grid-100">
+                    <h1>Contato</h1>
+                </div>
+                <br>
+                <!--FORMULÁRIO-->
+                <!--ROW-->
+                <div class="grid-50">
+                    <label for="txtnome">Nome</label>
+                    <input type="text" id="txtNome">
+                </div>
+
+                <div class="grid-50">
+                    <label for="txtEmail">E-mail</label>
+                    <input type="text" id="txtEmail">
+                </div>
+
+                <!--ROW-->
+                <div class="grid-50">
+                    <label for="txtSenha">Senha</label>
+                    <input type="password" id="txtSenha">
+                </div>
+
+                <div class="grid-50">
+                    <label for="">Sexo</label>
+                    <label class="inline"><input type="radio" value="H" name="rdSexo" checked> Homem</label>
+                    <label class="inline"><input type="radio" value="M" name="rdSexo"> Mulher</label>
+                </div>
+
+                <div class="clear"></div>
+
+                <!--ROW-->
+                <div class="grid-50">
+                    <label for="slEstado">Estado</label>
+                    <select name="slEstado" id="slEstado">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </select>
+                </div>
+
+                <div class="grid-50 hide-on-mobile">
+                    <label>&nbsp;</label>
+                    <br>
+                    <hr>
+                </div>
+
+                <!--ROW-->
+                <div class="grid-100">
+                    <label for="txtSobre">Fale sobre você.</label>
+                    <textarea name="txtSobre" id="txtSobre" cols="30"></textarea>
+                    </select>
+                </div>
+
+                <div class="grid-100">
+                    <input type="submit" class="btn" value="Enviar">
+                </div>
+
+                <!--FORMULÁRIO-->
+                <br>
+                <br>
+            </div>
+
+            <div class="grid-30">
+                <h2 class="bold">Dicas</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas pariatur iste officiis,
+                    amet consequatur dolore velit nesciunt, perferendis obcaecati, laudantium explicabo nemo enim
+                    quaerat soluta ipsa rem minima sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas pariatur iste officiis,
+                    amet consequatur dolore velit nesciunt, perferendis obcaecati, laudantium explicabo nemo enim
+                    quaerat soluta ipsa rem minima sunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('txtSobre');
+    </script>
+</body>
+
+</html>
