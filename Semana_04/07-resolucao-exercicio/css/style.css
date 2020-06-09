@@ -1,0 +1,136 @@
+* {
+    font-family: 'Lexend Tera', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.max-width {
+    max-width: 1280px;
+    width: 100%;
+}
+
+
+/*header*/
+header {
+    background-color: #111;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFF;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:first-child{
+    padding: 0;
+}
+
+nav ul li a:hover {
+    color: rgb(2, 141, 255);
+}
+
+nav ul li img {
+    vertical-align: middle;
+    max-width: 50px;
+    padding: 0;
+    width: 100%;
+}
+
+/*Section*/
+
+section {
+    background-color: rgb(143, 164, 170);
+    margin-top: 25px;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFF;
+    border-left: 5px solid rgb(255, 255, 255);
+    padding-left: 15px;
+}
+
+#frmCadastro {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    color: #FFF;
+    margin-top: 15px;
+}
+
+.form {
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #FFF;
+    color: rgb(39, 48, 78);
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgb(2, 141, 255);
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: rgb(39, 48, 78);
+}
+
+#mensagens ul {
+    list-style-type: none;
+}
+
+#mensagens ul li {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*Helpers*/
+.alert-warning {
+    background-color: rgb(246, 178, 122);
+    color: rgb(66, 59, 53);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.alert-success {
+    background-color: rgb(30, 167, 60);
+    color: rgb(53, 66, 54);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.invalid {
+    box-sizing: border-box;
+    border: 1px solid rgb(253, 3, 66);
+}
+
+.valid {
+    box-sizing: border-box;
+    border: 1px solid rgb(10, 170, 50);
+}

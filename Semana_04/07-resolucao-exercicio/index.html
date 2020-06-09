@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Meu Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="max-width">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Logo Meu Site">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Lens_-_new_logo.png/600px-Google_Lens_-_new_logo.png"
+                                alt="Minha logo">
+                        </a>
+                    </li>
+
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="max-width">
+        <div class="grid-100">
+            <h1>Cadastro</h1>
+        </div>
+        <!---FORM-->
+
+        <form action="cadastro.php" id="frmCadastro">
+            <!--ROW NAME and EMAIL-->
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtNome">Nome</label>
+                <input type="text" name="txtNome" id="txtNome" placeholder="Joaquina" class="form">
+            </div>
+
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtEmail">E-mail</label>
+                <input type="text" name="txtEmail" id="txtEmail" placeholder="email@domain.com" class="form">
+            </div>
+
+            <!--ROW PASS-->
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtSenha">Senha</label>
+                <input type="password" name="txtSenha" id="txtSenha" placeholder="*********" class="form">
+            </div>
+
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtSenhaConfirma">Confirmar senha</label>
+                <input type="password" name="txtSenhaConfirma" id="txtSenhaConfirma" placeholder="*********"
+                    class="form">
+            </div>
+
+            <!--ROW GENDER and BORN DATE-->
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtGenero">Gênero</label>
+                <select name="slGenero" id="slGenero" class="form">
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                </select>
+            </div>
+
+            <div class="grid-50 mobile-grid-100">
+                <label for="txtDataNascimento">Data de nascimento</label>
+                <input type="date" name="txtDataNascimento" id="txtDataNascimento" class="form">
+            </div>
+
+            <!--ROW ABOUT-->
+            <div class="grid-100 mobile-grid-100">
+                <label for="txtSobre">Conte sobre você</label>
+                <textarea name="txtSobre" id="txtSobre" class="form" rows="6"></textarea>
+            </div>
+
+            <!--ROW BUTTON AND ALERT-->
+            <div class="grid-70 mobile-grid-100" id="mensagens">
+                <ul>
+                    <li>
+                        <div class="alert-warning">Preencha corretamente todos os campos</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="grid-30 mobile-grid-100 text-right">
+                <button type="submit" class="btn max-width">Cadastrar</button>
+            </div>
+
+            <div class="clear"></div>
+        </form>
+    </section>
+
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
