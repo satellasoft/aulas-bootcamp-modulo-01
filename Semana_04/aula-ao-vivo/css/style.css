@@ -1,0 +1,45 @@
+input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: royalblue;
+    color: #FFF;
+    border: 0;
+}
+
+button:active{
+    padding: 10px;
+    background-color: rgb(0, 28, 110);
+    color: #FFF;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: sandybrown;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.valido {
+    border: 1px solid rgb(8, 163, 235);
+    box-shadow: 0 0 5px rgb(8, 163, 235);
+}
+
+.errado {
+    border: 1px solid rgb(199, 26, 26);
+    box-shadow: 0 0 5px rgb(255, 123, 123);
+}
